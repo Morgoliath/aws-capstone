@@ -252,7 +252,7 @@ create bucket
 
 - Click Create Bucket
 ```text
-Bucket Name : www.clarusway.us
+Bucket Name : aws.clarusway.us
 Region      : N.Virginia
 Object Ownership
     - ACLs enabled
@@ -263,7 +263,7 @@ Please keep other settings as are
 ```
 - create bucket
 
-- Selects created `www.clarusway.us` bucket ---> Properties ---> Static website hosting
+- Selects created `aws.clarusway.us` bucket ---> Properties ---> Static website hosting
 ```text
 Static website hosting : Enable
 Hosting Type : Host a static website
@@ -641,7 +641,7 @@ Other stuff                             : Keep them as are
 - Distribution Settings
 ```text
 Price Class                             : Use NA &Europe
-Alternate Domain Names                  : www.clarusway.us
+Alternate Domain Names                  : aws.clarusway.us
 SSL Certificate                         : Custom SSL Certificate (example.com) ---> Select your certificate created before
 Other stuff                             : Keep them as is
 ```
@@ -675,7 +675,7 @@ Other stuff         : Keep them as are
 - Select Failover ---> Click Next
 ```text
 Configure records
-Record name             : www.clarusway.us
+Record name             : aws.clarusway.us
 Record Type             : A - Routes traffic to an IPv4 address and some AWS resources
 TTL                     : 300
 
